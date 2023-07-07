@@ -1,8 +1,9 @@
 :root {
     --primery-text-color: #2c2c2c;
     --accent-text-color: #BBF330;
-    --accent-btn-bg: #FFE450
-    --btn-bg: #BBF330;
+    --accent-btn-bg: #FFE450;
+    --white-color: #FEFEFE;
+   
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -50,26 +51,33 @@ img {
 .nav-link {
     display: block;
     padding: 28px 0;
+    
+}
+
+.nav-item {
     color: var(--primery-text-color);
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-item:hover, .nav-item:focus {
     color: var(--accent-text-color);
     font-weight: 700px;
-    text-decorstion: underlined:
+    text-decoration: underlined;
 }
-.nav-btn {
+
+.btn {
     color: var(--primery-text-color);
-        font-size: 13px;
-        font-family: inherit;
-        font-weight: 500;
-        line-height: 150%;
-        cursor: pointer;
-        background-color: var(--btn-bg);
-        padding: 6px 18px;
-        border: none;
-        border-radius: 30px;
+    font-size: 13px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 150%;
+    cursor: pointer;
+    background-color: var(--accent-text-color);
+    padding: 6px 18px;
+    border: none;
+    border-radius: 30px;
 }
+
+
 .nav-btn:hover, .nav-btn:focus {
     background-color: var(--accent-btn-bg);
 }
@@ -85,24 +93,12 @@ img {
 }
 
 .hero-text {
-font-size: 16px;
+    font-size: 16px;
     line-height: 150%;
     margin-bottom: 46px;
 }
 
-.hero-btn {
-    color: var(--primery-text-color);
 
-        font-size: 13px;
-        font-family: Roboto;
-        font-weight: 500;
-        line-height: 150%;
-        cursor: pointer;
-        padding: 6px 18px;
-        background-color: var(--btn-bg);
-        border-radius: 30px;
-        border: none;
-}
 
 .hero-btn:hover,
 .hero-btn:focus {
@@ -118,3 +114,54 @@ font-size: 16px;
     max-width: 511px;
 
 }
+
+.offerings {}
+
+.offerings-text-wrapper {
+
+}
+
+.offerings-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {}
+
+.primary-name {
+    font-size: 42px;
+    line-height: 120%;
+}
+
+.offerings-text {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.offerings-list {
+    display: flex;
+}
+
+.offerings-item {}
+
+.offerings-thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--white-color);
+    margin-bottom: 8px;
+}
+
+.offerings-name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.offerings-btn {}
+
+.btn {}
