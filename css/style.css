@@ -125,6 +125,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .container {}
@@ -132,11 +133,16 @@ img {
 .primary-name {
     font-size: 42px;
     line-height: 120%;
+    margin-bottom: 20px;
+    text-align: center;
+   
 }
 
 .offerings-text {
     font-size: 16px;
     line-height: 150%;
+    margin-bottom: 40px;
+    
 }
 
 .offerings-list {
@@ -160,8 +166,40 @@ img {
     font-size: 18px;
     font-weight: 700;
     line-height: 140%;
+    margin-bottom: 16px;
 }
 
 .offerings-btn {}
 
 .btn {}
+
+.favourites-section {
+   
+}
+
+.favourites-container {
+  
+}
+
+.container {}
+
+.primary {}
+
+.name {}
+
+.favourites-text {
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: normal;
+    font-size: 16px;
+}
+
+.favourites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.favourites-item {
+    flex-basis: calc((100% - 64px) / 3);
+}
