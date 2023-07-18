@@ -232,6 +232,12 @@ img {
     
 }
 
+@media only screen and (max-width: 767.98px) {
+  .subscribe-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 
 @media only screen and (min-width: 1158px) {
   .subscribe-section {
@@ -286,13 +292,19 @@ img {
     }
 }
 
-.subscribe-form {}
+@media only screen and (min-width: 768px) {
+  .subscribe-form {
+    display: flex;
+  }
+} {
+
+}
 
 .subscribe-label {}
 
 .subscribe-input {
     height: 42px;
-    min-width: 394px;
+    /* min-width: 394px; */
     border-radius: 30px;
     border: 2px solid #FFE550;
     background: #FEFEFE;
@@ -312,9 +324,22 @@ img {
 @media only screen and (max-width: 767.98px) {
   .subscribe-input {
     margin-bottom: 20px;
+    width: 100%;
   }
 }
 
+@media only screen and (min-width: 768px) {
+    .subscribe-input {
+        
+        width: 395px;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+  .btn-container {
+    display: flex;
+    justify-content: right;
+  }
+} 
 
 .subscribe-btn {
     display: inline-flex;
@@ -332,6 +357,14 @@ img {
     font-size: 13px;
     font-weight: 500;
     line-height: 1.5;
+   
+}
+
+
+@media only screen and (max-width: 767.98px) {
+  .subscribe-btn {
+    /* margin-left: 285px; */
+  }
 }
 
 .subscribe-btn:hover,
@@ -340,30 +373,40 @@ img {
 }
 
 .subscribe-image {
-    min-width: 280px;
-    min-height: 78px;
+    /* display: flex;
+    width: 100%;
+   height: 100%; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     margin-bottom: 17px;
 }
 
-@media only screen and (min-width: 428px) {
+/* @media only screen and (min-width: 768px) {
   .subscribe-image {
-    text-align: center;
-    width: 281px;
-    height: 136px;
-
+    
   }
-} 
+} */
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .subscribe-image {
     text-align: right;
     width: 608px;
     height: 266px;
   }
-}
+} */
 
 @media only screen and (min-width: 768px) and (max-width: 1157.98px) {
     .subscribe-image {
         margin-bottom: 20px;
+        
     }
+}
+
+@media only screen and (min-width: 1158px) {
+  .subscribe-image {
+    width: 608px;
+    height: 266px;
+  }
 }
